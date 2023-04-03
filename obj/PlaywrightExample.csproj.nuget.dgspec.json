@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tmp/specflow_example/SpecFlow-Examples/Actions/PlaywrightExample/PlaywrightExample/PlaywrightExample.csproj": {}
+  },
+  "projects": {
+    "/Users/tmp/specflow_example/SpecFlow-Examples/Actions/PlaywrightExample/PlaywrightExample/PlaywrightExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tmp/specflow_example/SpecFlow-Examples/Actions/PlaywrightExample/PlaywrightExample/PlaywrightExample.csproj",
+        "projectName": "PlaywrightExample",
+        "projectPath": "/Users/tmp/specflow_example/SpecFlow-Examples/Actions/PlaywrightExample/PlaywrightExample/PlaywrightExample.csproj",
+        "packagesPath": "/Users/tmp/.nuget/packages/",
+        "outputPath": "/Users/tmp/specflow_example/SpecFlow-Examples/Actions/PlaywrightExample/PlaywrightExample/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/tmp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.32.0, )"
+            },
+            "Microsoft.Playwright.NUnit": {
+              "target": "Package",
+              "version": "[1.32.0, )"
+            },
+            "Playwright.FluentAssertions": {
+              "target": "Package",
+              "version": "[1.17.3.1, )"
+            },
+            "Playwright.Synchronous": {
+              "target": "Package",
+              "version": "[1.17.3.1, )"
+            },
+            "SpecFlow.Actions.Configuration": {
+              "target": "Package",
+              "version": "[0.1.285, )"
+            },
+            "SpecFlow.Actions.Playwright": {
+              "target": "Package",
+              "version": "[0.1.285, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.*, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.58, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.407/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
